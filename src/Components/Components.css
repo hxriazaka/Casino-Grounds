@@ -1,0 +1,156 @@
+.navbar{
+    background-color: rgb(6 39 121);
+    color: white;
+}
+.navbar-nav a{
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    color: white;
+}
+.navbar form{
+    width: 200px;
+}
+.navbar form button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(241, 199, 27);
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: rgb(204 162 0) 0px 2px 0px 0px;
+    padding: 2px 25px;
+    color: rgba(20, 24, 35, 0.94);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Red Hat Text", sans-serif;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    transition: transform 0.1s ease 0s, box-shadow 0.3s ease 0s;
+}
+.navbar-toggler {
+    box-shadow: none !important;
+}
+.fa-bars{
+    color: white !important;
+}
+
+/*game*/
+.game{
+    background-color: white;
+    overflow: hidden;
+    height: 222px;
+    background: linear-gradient(rgb(239, 242, 247) 0%, rgba(255, 255, 255, 0) 16.67%, rgb(239, 242, 247) 96.35%), rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 20px 16px -9px;
+    position: relative;
+    border-radius: 4px;
+    padding: 5px 7px 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.game button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    background: rgb(241, 199, 27);
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 4px;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    height: fit-content;
+    text-decoration: none;
+    color: rgb(27, 27, 27) !important;
+    border: 0px;
+}
+.game button:hover{
+    background: rgb(241, 211, 88);
+}
+.game .img1{
+    max-width: 100%;
+}
+.game .img2{
+    width: 10%;
+}
+.game p{
+    margin: 0;
+}
+.game .c1{
+    padding-top: 15px;    
+}
+.c1-p{
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+}
+.c1-p:hover{
+    color: gray;
+}
+.c1-0{
+    height: 18vh;
+    width: 250px;
+}
+.c1-1{
+    width: 150px;
+}
+.c2{
+    display: none !important;
+}
+
+/*--responsive--*/
+
+@media (max-width: 774px){
+    .game{
+        height: 170px;
+    }
+    .game .c2{
+        padding-top: 15px;    
+    }
+    .c2 .img1{
+        width: 80%;
+    }
+    .c2-p{
+        color: gray;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .c2-p:hover{
+        color: gray;
+    }
+    .c2-0{
+        height: 100%;
+        width: 100px;
+    }
+    .c2-1{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .c1{
+        display: none !important;
+    }
+    .c2{
+        display: flex !important;
+    }
+    .c2 button{
+        font-size: 13px;
+        line-height: 19px;
+        height: 30px;
+        width: 170px !important;   
+    }
+    .navbar form button{
+        margin: 10px !important;
+    }
+    .c2-2{
+        padding-right: 0 !important;
+    }
+
+}

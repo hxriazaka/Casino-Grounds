@@ -1,0 +1,132 @@
+.bio{
+    min-height: 30vh;
+    background-image: linear-gradient(180deg,#1543bf 0%,#062779 60%);
+    color: white;
+}
+.bio p{
+    color: whitesmoke;
+}
+.bio h6{
+    font-weight: 400;
+}
+.bio .btns{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.bio .btns button{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 3px 8px;
+    color: white;
+    margin: 0 5px;
+}
+.bio .btns button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.g1-0{
+    margin-right: 15px;
+}
+.g1-0 h6{
+    margin-bottom: 0 !important;
+}
+.g1-0 svg{
+    margin: 0 15px !important;
+}
+.g1-1{
+    background-color: transparent;
+    border: none;
+}
+.MuiButtonBase-root{
+    padding: 0 !important;
+    border-bottom: 0 !important;
+}
+.MuiButtonBase-root a{
+    text-decoration: none;
+    color: black !important;
+    width: 200px;
+    padding: 5px 20px;
+}
+.MuiSelect-root a{
+    text-decoration: none;
+    color: white;
+}
+.MuiSelect-icon{
+    color: white !important;
+}
+.MuiInput-underline{
+    border-bottom: 0px !important;
+}
+.MuiInput-underline:after{
+    border-bottom: 0 !important;
+}
+.sec img{
+    margin-right: 12px;
+}
+.MuiSelect-root img{
+    margin-right: 12px;
+}
+/*forum*/
+.forum{
+    padding-top: 80px;
+    min-height: 40vh;
+}
+.forum .f1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 12%);
+    background: linear-gradient(180deg,#eff2f7 0%,rgba(255,255,255,.1) 16.67%,#eff2f7 96.35%) , #fff;
+    border-radius: 10px;
+    padding: 0;
+    width: 300px;
+}
+.f0{
+    margin: 25px;
+    box-sizing: border-box;
+}
+.f0 h3{
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.f0 p{
+    margin: 0;
+    margin-left: 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.f1 h5{
+    padding: 0 5px;
+}
+.f1 p{
+    padding: 0 12px;
+}
+.hRlMud {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    fill: #4fd3f1;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+}
+@media (max-width: 774px){
+    .btns{
+        display: block !important;
+    }
+    .btns button{
+        margin-top: 10px !important;
+    }
+    .g1{
+        margin-top: 40px;
+    }
+}
+
+
